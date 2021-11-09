@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{41f774d3-2acc-42f2-95c6-2c4185cfccf3}</ProjectGuid>
-    <RootNamespace>advancedsoftwareengineering2</RootNamespace>
+    <ProjectGuid>{3b4abef0-70c2-4407-b8a7-3174b2dc2094}</ProjectGuid>
+    <RootNamespace>OptimumSolutionTimingTests</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Optimum Solution</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,8 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="OptimumSolution.cpp" />
+    <ClCompile Include="OptimumSolutionTimingTests.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
